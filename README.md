@@ -25,16 +25,11 @@ Building local AI setups to automate:
 
 ## 📊 GitHub Activity
 
-<picture onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/razcue/razcue/dist/github-snake-dark.svg?palette=github-dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/razcue/razcue/dist/github-snake.svg">
-  <img src="https://raw.githubusercontent.com/razcue/razcue/dist/github-snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
 </picture>
-<p align="center" style="display:none">
-  <a href="https://github.com/razcue/razcue/graphs/contributions">
-    <img src="https://ghchart.rshah.org/razcue" alt="Raz's GitHub chart" />
-  </a>
-</p>
 
 ## 📝 Latest Blog Posts
 
