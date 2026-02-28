@@ -2,32 +2,26 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Daily at midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
-    paths:
-      - 'README.md'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: Platane/snk@v3
-        id: snake
         with:
-          user_name: razcue
+          github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          svg_out_path: ./github-contribution-grid-snake.svg
-      
-      - uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: ./github-contribution-grid-snake.svg
-      
+          outputs: |
+            svg
+            svg:github-contribution-grid-snake.svg
+
       - name: Push snake
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |

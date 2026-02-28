@@ -1,19 +1,16 @@
 # Rayko Azcue
 
-<!-- Hero Banner -->
-<p align="center">
+<!-- Hero Banner - adapts to light/dark mode -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=333&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
   <img src="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49" width="100%" />
-</p>
+</picture>
 
 ## 🛠 Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,javascript,typescript,vue,nuxt,react,nextjs,astro,sass,tailwind,nodejs,nest,php,laravel,postgresql,redis,elasticsearch,docker,linux,cloudflare,vercel,aws,git&perline=8" />
-</p>
-
-### Activity breakdown
-<p align="center">
-  <img src="https://metrics.lecoq.io/razcue?languages=1&languages.accuracy=0&theme=radical&hide_border=true" height="130" alt="languages" />
 </p>
 
 ## 🗺️ Exploring
@@ -23,13 +20,12 @@ Building local AI setups to automate:
 - **Job Hunting** — Search → Validate → Apply workflow  
 - **Ideas & Planning** — Autonomous brainstorming agents
 
-## 🐍 GitHub Activity — Snake
+## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/razcue/razcue/output/github-contribution-grid-snake.svg" alt="Snake animation" onerror="this.style.display='none'" />
+  <img src="https://raw.githubusercontent.com/razcue/razcue/output/github-contribution-grid-snake.svg" alt="Snake animation" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
 </p>
-<!-- Fallback: If snake doesn't load, a static contribution graph -->
-<p align="center">
+<p align="center" style="display:none">
   <a href="https://github.com/razcue/razcue/graphs/contributions">
     <img src="https://ghchart.rshah.org/razcue" alt="Raz's GitHub chart" />
   </a>
@@ -44,12 +40,11 @@ Building local AI setups to automate:
 ## ⚡ Quick Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=razcue&show_icons=true&theme=radical&hide_border=true&bg_color=0,6B5B95,88B04B&disable_animations=true" height="180" alt="stats" onerror="this.style.display='none'" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=razcue&layout=compact&theme=radical&hide_border=true&bg_color=0,6B5B95,88B04B&disable_animations=true" height="180" alt="languages" onerror="this.style.display='none'" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=razcue&theme=radical&hide_border=true" alt="streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=razcue&theme=dark&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=razcue&theme=transparent&hide_border=true">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=razcue&theme=transparent&hide_border=true" alt="streak" />
+  </picture>
 </p>
 
 ## 🤝 Let's Connect
