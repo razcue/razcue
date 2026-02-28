@@ -1,11 +1,14 @@
 # Rayko Azcue
 
 <!-- Hero Banner - adapts to light/dark mode -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=333&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
-  <img src="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49" width="100%" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=333&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
+    <img src="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49" width="100%" />
+  </picture>
+</p>
+
 
 ## 🛠 Tech Stack
 
@@ -22,9 +25,11 @@ Building local AI setups to automate:
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/razcue/razcue/output/github-contribution-grid-snake.svg" alt="Snake animation" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
-</p>
+<picture onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/razcue/razcue/dist/github-snake-dark.svg?palette=github-dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/razcue/razcue/dist/github-snake.svg">
+  <img src="https://raw.githubusercontent.com/razcue/razcue/dist/github-snake.svg" alt="Snake animation" />
+</picture>
 <p align="center" style="display:none">
   <a href="https://github.com/razcue/razcue/graphs/contributions">
     <img src="https://ghchart.rshah.org/razcue" alt="Raz's GitHub chart" />

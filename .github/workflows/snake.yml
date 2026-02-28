@@ -17,14 +17,7 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          outputs: |
-            svg
-            svg:github-contribution-grid-snake.svg
 
-      - name: Push snake
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: |
-          git add ./github-contribution-grid-snake.svg
-          git commit -m "Update snake animation" || exit 0
-          git push
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
