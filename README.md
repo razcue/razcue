@@ -3,9 +3,9 @@
 <!-- Hero Banner - adapts to light/dark mode -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=333&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
-    <img src="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think,%20I%20build,%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think%2C%20I%20build%2C%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think%2C%20I%20build%2C%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=333&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49">
+    <img src="https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=I%20think%2C%20I%20build%2C%20I%20sleep&section=header&textBg=false&fontAlign=50&animation=fadeIn&reversal=false&fontSize=40&fontColor=fff&fontAlignY=50&desc=then%20I%20exist&descAlignY=65&descAlign=49" width="100%" />
   </picture>
 </p>
 
@@ -16,20 +16,20 @@
   <img src="https://skillicons.dev/icons?i=html,css,javascript,typescript,vue,nuxt,react,nextjs,astro,sass,tailwind,nodejs,nest,php,laravel,postgresql,redis,elasticsearch,docker,linux,cloudflare,vercel,aws,git&perline=8" />
 </p>
 
-## 🗺️ Exploring
-
-Building local AI setups to automate:
-- **UI Development** — Agent-assisted component generation
-- **Job Hunting** — Search → Validate → Apply workflow  
-- **Ideas & Planning** — Autonomous brainstorming agents
-
-## 📊 GitHub Activity
+## 🐍 My Contribution Diet
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/razcue/razcue/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/razcue/razcue/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/razcue/razcue/output/github-contribution-grid-snake.svg" />
 </picture>
+
+## 🗺️ Exploring
+
+Building local AI setups to automate:
+- **UI Development** — Agent-assisted component generation
+- **Job Hunting** — Search → Validate → Apply workflow  
+- **Ideas & Planning** — Autonomous brainstorming agents
 
 ## 📝 Latest Blog Posts
 
@@ -65,7 +65,7 @@ Building local AI setups to automate:
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=razcue&label=Profile%20Views&color=6B5B95&style=for-the-badge" alt="profile views" />
-  <a href="https://github.com/sponsors/razcue">
-    <img src="https://img.shields.io/badge/sponsor-%23EA4AAA.svg?&style=for-the-badge&logo=github-sponsors&logoColor=white" alt="sponsor" />
+  <a href="https://razcue.github.io/#open-to-work">
+    <img src="https://img.shields.io/badge/open%20to%20work-%2300BFFF.svg?&style=for-the-badge&logo=briefcase&logoColor=white" alt="open to work" />
   </a>
 </p>
