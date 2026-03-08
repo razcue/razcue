@@ -65,7 +65,7 @@ Building local AI setups to automate:
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=razcue&label=Profile%20Views&color=6B5B95&style=for-the-badge" alt="profile views" />
-  <a href="https://razcue.github.io/#open-to-work">
+  <a href="https://razcue.github.io/#open-to">
     <img src="https://img.shields.io/badge/open%20to%20work-%2300BFFF.svg?&style=for-the-badge&logo=briefcase&logoColor=white" alt="open to work" />
   </a>
 </p>
